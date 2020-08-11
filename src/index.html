@@ -3,9 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="scss/styles.scss" />
     <script defer src="js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8fe048c345.js"
+      crossorigin="anonymous"
+    ></script>
     <title>online-marketing-website</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header main-grid">
+      <div class="content">
+        <p class="logo">CSS GRID</p>
+        <button aria-label="open-navigation" class="open-nav">&#9776;</button>
+        <nav class="navigation">
+          <button aria-label="Close navigation" class="close-nav">
+            &times;
+          </button>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav-link current">home</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html" class="nav-link">about us</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html" class="nav-link">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="image__part main__grid">
+        <h1 class="title">
+          We are a web development agency, and this could be a possible Layout
+          for your Website.
+          <span class="bold">We will build you a customized webpage</span> that
+          fit your needs to win more clients.
+        </h1>
+        <p class="intro">
+          Coding is a passion, and our team is the best you can get to thrive in
+          your project. Our strengths are HTML, CSS & Javascript. If you want to
+          learn more, please have a look at our Portfolio.
+        </p>
+        <a href="#" class="btn">contact us</a>
+      </section>
+
+      <section class="info main__grid">
+        <div class="about part1">
+          <h2 class="headlines">About Us</h2>
+          <p class="pstyle">
+            We are specialsts in web development. Creativity and fun are our
+            ingredients for <span class="black">awesome work.</span>
+          </p>
+        </div>
+        <div class="skills part1">
+          <h2>Our Skills</h2>
+          <p class="pstyle">
+            We offer the full service of frontend web development which means:
+            <span class="black">HTML, CSS and Javaskript.</span>
+          </p>
+        </div>
+        <div class="touch part1">
+          <h2>Get In Touch</h2>
+          <p class="pstyle">
+            Send us an email with your ideas and we will come back to you
+            <span class="black">immediately.</span>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer main__grid">
+      <div class="footer__text">
+        <p class="end">
+          Awesome, you studied our page. Please follow us on our social media
+          accounts. They are linked on the right site. You can`t miss the icons.
+          If you liked our projects we would be more than happy to work for you.
+        </p>
+        <p class="copyright">© example2020</p>
+      </div>
+      <div class="social">
+        <a href="#" class="facebook icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="twitter icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="instagram icon"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+  </body>
 </html>

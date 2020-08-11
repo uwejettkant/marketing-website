@@ -8,7 +8,6 @@
   "doctype-first": true,
   "tag-pair": true,
   "empty-tag-not-self-closed": true,
-  "spec-char-escape": true,
   "id-unique": true,
   "src-not-empty": true,
   "title-require": true,

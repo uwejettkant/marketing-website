@@ -1,1 +1,1 @@
-console.log("logic will be placed here");
+console.log('logic will be placed here')

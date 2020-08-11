@@ -1,1 +1,1 @@
-import "./hamburgerMenue.js";
+import './hamburgerMenue.js'
