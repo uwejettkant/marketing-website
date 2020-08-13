@@ -1,0 +1,50 @@
+.footer > * {
+  grid-column: 2 / -2;
+}
+
+.footer {
+  background: #ebebeb;
+  color: #000;
+}
+
+.social {
+  order: -1;
+  font-size: 1.75rem;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icon {
+  color: #000;
+}
+
+.icon:hover,
+.icon:focus {
+  cursor: mouse;
+  color: #fda039;
+}
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.end {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.copyright {
+  font-size: 1.1rem;
+  padding-top: 1em;
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer__text,
+.copyright {
+  opacity: 0.4;
+}
