@@ -25,8 +25,8 @@ h2 {
   color: #000;
 }
 
-.main-grid {
+.main__grid {
   display: grid;
   grid-template-columns: minmax(1em, 1fr) minmax(0, 500px) minmax(1em, 1fr);
-  grid-column-gap: 2em;
+  grid-gap: 2em;
 }
