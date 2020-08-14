@@ -1,5 +1,5 @@
 .header {
-  background: #000;
+  background: var(--primary);
 }
 
 .header__content {
@@ -9,8 +9,8 @@
 }
 
 .logo__link {
-  background: #fda039;
-  color: #000;
+  background: var(--secondary);
+  color: var(--primary);
   font-weight: 700;
   padding: 1em 0.5em;
   margin-top: 0;
