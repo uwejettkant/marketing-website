@@ -2,7 +2,7 @@
   margin-bottom: 0;
 }
 
-.main__image {
+.main__image--contact {
   object-fit: cover;
   max-width: 100%;
   display: block;
@@ -21,7 +21,7 @@
   width: 100%;
   height: 3px;
   margin-top: 1em;
-  background: #fda039;
+  background: var(--secondary);
   margin-left: auto;
   margin-right: auto;
 }
@@ -55,7 +55,7 @@ textarea {
 }
 
 .btn__form {
-  background-color: #fda039;
+  background-color: var(--secondary);
   border: none;
   align-self: start;
   margin-top: 1.5em;

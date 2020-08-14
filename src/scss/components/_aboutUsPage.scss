@@ -1,6 +1,6 @@
 main {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white-bg);
+  color: var(--primary);
   grid-column: 2 /-2;
 }
 
@@ -12,7 +12,7 @@ main {
 }
 
 .page__title {
-  color: #000;
+  color: var(--primary);
   font-size: 2.5rem;
   justify-self: center;
 }
@@ -41,7 +41,7 @@ main {
   width: 100px;
   height: 3px;
   margin-top: 1em;
-  background: #fda039;
+  background: var(--secondary);
   margin-left: auto;
   margin-right: auto;
 }

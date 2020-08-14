@@ -4,7 +4,7 @@
 
 .footer {
   background: #ebebeb;
-  color: #000;
+  color: var(--primary);
 }
 
 .social {
@@ -18,13 +18,13 @@
 }
 
 .icon {
-  color: #000;
+  color: var(--primary);
 }
 
 .icon:hover,
 .icon:focus {
   cursor: mouse;
-  color: #fda039;
+  color: var(--secondary);
 }
 
 .footer__text {
@@ -34,7 +34,6 @@
 
 .end {
   text-align: center;
-  margin-top: 0;
 }
 
 .copyright {

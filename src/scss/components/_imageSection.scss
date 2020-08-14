@@ -5,8 +5,8 @@
   background-size: 30%;
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--primary);
+  color: var(--white-bg);
   padding-left: 0.5em;
 }
 
@@ -27,16 +27,16 @@
 
 .btn {
   text-decoration: none;
-  background-color: #fda039;
+  background-color: var(--secondary);
   justify-self: start;
   padding: 0.5em;
   border-radius: 5px;
-  color: #000;
+  color: var(--primary);
   font-weight: 700;
   font-size: 1.125rem;
 }
 
 .btn:hover,
 .btn:focus {
-  background-color: white;
+  background-color: var(--white-bg);
 }

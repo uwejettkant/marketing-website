@@ -1,6 +1,6 @@
 .navigation {
   position: fixed;
-  background: #000;
+  background: var(--primary);
   width: 100%;
   top: 0;
   right: 0;
@@ -24,13 +24,13 @@
 
 .nav__link {
   text-decoration: none;
-  color: #fda039;
+  color: var(--secondary);
 }
 
 .open__nav {
   border: 0;
   background: 0;
-  color: #fda039;
+  color: var(--secondary);
   padding: 0.5em;
   margin-left: auto;
   font-size: 2em;
@@ -43,7 +43,7 @@
 .close__nav {
   border: 0;
   background: 0;
-  color: #fda039;
+  color: var(--secondary);
   font-weight: 700;
   font-size: 3rem;
   padding: 0.5em;
@@ -56,10 +56,10 @@
 .close__nav:focus,
 .open__nav:hover,
 .open__nav:focus {
-  color: #fff;
+  color: var(--white-bg);
   cursor: pointer;
 }
 
 .current {
-  border-bottom: 1px solid #fda039;
+  border-bottom: 1px solid var(--secondary);
 }
